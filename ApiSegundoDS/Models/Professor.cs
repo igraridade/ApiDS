@@ -8,11 +8,9 @@
         public string? RMA { get; set; }
         public string? Pai { get; set; }
         public string? Mae { get; set; }
-        public Escola escola { get; set; }
-        public Professor Professor { get; set; }
+        public string? ComponenteCurricular { get; set; }
+        public int EscolaID { get; set; }
         public int AlunoID { get; set; }
-    }
-}
 
     }
 }
