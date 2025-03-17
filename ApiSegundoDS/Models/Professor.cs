@@ -10,6 +10,7 @@
         public string? Mae { get; set; }
         public Escola escola { get; set; }
         public Professor Professor { get; set; }
+        public int AlunoID { get; set; }
     }
 }
 
